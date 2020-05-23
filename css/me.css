@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family: "微軟正黑體";
+}
+h1,h2,h3{
+    font-weight: bolder;
+}
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    border-top: 2px dashed gray;
+    border-bottom: 2px dashed gray;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.header h2{
+    font-weight: normal;
+    font-size: 30px;
+    color: gray;
+}
+.info img{
+    margin: 0 20px;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+}
+.name h1 a{
+    background-image: url(../images/chen1.png);
+    display: block;
+    width: 212px;
+    height: 175px;
+    border-radius: 50%;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 20px 0;
+}
+.name-chen{
+    padding: 55px 0 0 15px;
+}
+.name h2{
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.name p{
+    line-height: 1.4;
+    font-size: 18px;
+}
+.skill h2{
+    font-size: 36px;
+    color: #00AEAE;
+    padding: 10px 0 25px 0;
+}
+.skill-info{
+    display: flex;
+    justify-content: space-between;
+}
+.code,.internet,.hard{
+    border: 1px solid gray;
+    box-shadow: 3px 3px 5px gray;
+    text-align: center;
+    border-radius: 10px;
+    padding: 60px;
+}
+.code p,.internet p,.hard p{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0066CC;
+    padding: 20px 0;
+}
+.code li,.internet li,.hard li{
+    list-style: disc;
+    text-align: left;
+    line-height: 1.4;
+}
+.code li a{
+    text-decoration: none;
+}
+.experience h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #00AEAE;
+    padding: 25px 0;
+}
+.experience-line{
+    display: flex;
+    justify-content: space-between;
+}
+.experience-line p{
+    padding: 40px 600px 70px 0;
+    font-size: 24px;
+    color: #0066CC;
+}
+
+
+
+
